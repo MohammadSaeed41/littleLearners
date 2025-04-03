@@ -1,0 +1,144 @@
+/* start academics welcome message */
+.academics-welcome-message img{
+    height: 95px;
+    width: 95px;
+}
+.academics-welcome-message .container{
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 5px 5px 2px rgba(0, 0, 0, 1);
+}
+@media only screen and (max-width: 768px){
+    .academics-welcome-message .container{
+        text-align: center;
+    }
+    .academics-welcome-message h2{
+        font-size: 20px;
+        margin-bottom: 10px;
+        margin-top: 10px;
+    }
+}
+/* end academics welcome message */
+
+/* start our special features section */
+.our-special-features .features-item{
+    height: 260px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 2px rgba(0, 0, 0, 1);
+    position: relative;
+}
+.our-special-features .features-item i{
+    position: absolute;
+    top: -20px;
+    left: 30px;
+    height: 40px;
+    width: 40px;
+    background-color: var(--secondary-color);
+    border: black 1px solid;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 7px;
+}
+@media only screen and (max-width: 768px){
+    .our-special-features .features-item{
+        height: 230px;
+    }
+}
+@media only screen and (min-width: 1200px){
+    .our-special-features .features-item{
+        height: 205px;
+    }
+}
+/* end our special features section */
+
+/* start what students learn section */
+.learning-subjects .learning-subjects-item{
+    height: 400px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 2px rgba(0, 0, 0, 1);
+    overflow: hidden;
+    position: relative;
+}
+.learning-subjects .learning-subjects-item .rectangle{
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 100px;
+    height: 55%;
+    border-left: 1px solid black;
+    border-right: 1px solid black;
+    border-bottom: 1px solid black;
+    border-radius: 0 0 5px 5px;
+}
+.learning-subjects .learning-subjects-item .item{
+    z-index: 1;
+}
+/* end what students learn section */
+
+/* start our room gallery section */
+.our-rooms .nav .nav-link{
+    border-radius: 5px;
+    transition: background-color 0.7s;
+}
+.our-rooms .nav .nav-link:hover{
+    background-color: var(--main-color) !important;
+}
+.our-rooms .nav .active{
+    background-color: var(--secondary-color) !important;
+    transform: none;
+    pointer-events: none;
+}
+
+.carousel-control-prev-icon,.carousel-control-next-icon{
+    background-color: #000000;
+    border: 2px solid rgb(16, 16, 16);
+    padding: 10px;
+    border-radius: 5px; 
+    position: absolute;
+}
+.carousel-control-prev{
+    left: -80px;
+    top: 50%;
+    transform: translateY(-50%);
+    z-index: 1;
+}
+.carousel-control-next{
+    right: -80px;
+    top: 50%;
+    transform: translateY(-50%);
+    z-index: 1;
+}
+@media only screen and (max-width: 768px){
+    .carousel-control-prev{
+        left: -20px;
+    }
+    .carousel-control-next{
+        right: -20px;
+    }
+}
+.rooms{
+    margin-top: 100px;
+}
+.rooms .container{
+    height: 300px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 2px rgba(0, 0, 0, 1);
+}
+.rooms .container p{
+    margin-bottom: 50px;
+}
+.rooms .rooms-images{
+    display: flex;
+    position: absolute;
+    bottom: 100% ;
+    transform: translateY(50%);
+    left: 0;
+}
+@media only screen and (max-width: 768px){
+    .rooms .container{
+        height: 400px;
+        margin-top: 60px;
+    }
+}
+/* end our room gallery section */

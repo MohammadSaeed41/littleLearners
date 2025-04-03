@@ -1,0 +1,163 @@
+/* start about welcome message */
+.about-welcome-message img{
+    height: 95px;
+    width: 95px;
+}
+.about-welcome-message .container{
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 5px 5px 2px rgba(0, 0, 0, 1);
+}
+@media only screen and (max-width: 768px){
+    .about-welcome-message .container{
+        text-align: center;
+    }
+    .about-welcome-message h2{
+        font-size: 20px;
+        margin-bottom: 10px;
+        margin-top: 10px;
+    }
+}
+/* end about welcome message */
+
+/* start our mission section */
+.our-mission .mission-item{
+    height: 360px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 2px rgba(0, 0, 0, 1);
+}
+.our-mission .mission-item img{
+    height: 50px;
+    width: 50px;
+}
+@media only screen and (min-width: 992px){
+    .our-mission .mission-item{
+        height: 300px;
+    }
+}
+/* end our mission section */
+
+/* start our awards section */
+.our-awards{
+    margin-bottom: 80px;
+}
+.our-awards .our-awards-item{
+    height: 350px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 2px rgba(0, 0, 0, 1);
+    position: relative;
+}
+.our-awards .our-awards-item i{
+    position: absolute;
+    bottom: -20px;
+    left: 50%;
+    transform: translateX(-50%);
+    height: 40px;
+    width: 40px;
+    background-color: var(--secondary-color);
+    border: black 1px solid;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 7px;
+}
+.our-awards .our-awards-item h3{
+    font-size: 16px;
+    margin-top: 10px !important;
+}
+.our-awards .carousel-control-prev-icon{
+    background-color: #000000;
+    border: 2px solid rgb(16, 16, 16);
+    padding: 10px;
+    border-radius: 5px; 
+}
+.our-awards .carousel-control-next-icon {
+    background-color: #000000;
+    border: 2px solid rgb(16, 16, 16);
+    padding: 10px;
+    border-radius: 5px; 
+}
+.our-awards .carousel-control-prev{
+    top: 100%;
+    z-index: 0;
+}
+
+.our-awards .carousel-control-next{
+    top: 100%;
+    z-index: 0;
+}
+@media only screen and (max-width: 992px){
+    .our-awards .our-awards-item{
+        height: 300px;
+    }
+    .our-awards .our-awards-item{
+        justify-content: center;
+    }
+}
+/* end our awards section */
+
+/* start our history section */
+.our-history{
+    margin-top: 100px !important;
+    margin-bottom: 100px !important;
+}
+.our-history .row{
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 2px rgba(0, 0, 0, 1);
+}
+.our-history .year{
+    border-radius: 10px;
+    box-shadow: 5px 5px 2px rgba(0, 0, 0, 1);
+}
+.our-history .year img{
+    height: 50px;
+    width: 50px;
+}
+@media only screen and (max-width: 992px){
+    .our-history .history-item{
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 20px;
+    }
+}
+@media only screen and (min-width: 993px){
+    .our-history .row{
+        padding: 100px;
+    }
+}
+/* end our history section */
+
+/* start our team members section */
+.our-team .team-item{
+    height: 280px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 2px rgba(0, 0, 0, 1);
+}
+.our-team .team-item img{
+    height: 50px;
+    width: 50px;
+}
+.our-team .team-item i{
+    height: 30px;
+    width: 30px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.7s;
+}
+.our-team .team-item i:hover{
+    background-color: #FF8D4D;
+}
+.our-team .team-item .qualifications{
+    border-radius: 10px;
+}
+@media only screen and (max-width: 992px){
+    .our-team .team-item{
+        height: 350px;
+    }
+    .our-team .team-item h3{
+        font-size: 18px !important;
+    }
+}
+/* end our team members section */

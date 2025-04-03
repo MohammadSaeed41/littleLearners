@@ -1,0 +1,124 @@
+
+/* start student-life welcome message */
+.student-life-welcome-message img{
+    height: 95px;
+    width: 95px;
+}
+.student-life-welcome-message .container{
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 5px 5px 2px rgba(0, 0, 0, 1);
+}
+@media only screen and (max-width: 768px){
+    .student-life-welcome-message .container{
+        text-align: center;
+    }
+    .student-life-welcome-message h2{
+        font-size: 20px;
+        margin-bottom: 10px;
+        margin-top: 10px;
+    }
+}
+/* end student-life welcome message */
+
+/* start Extracurricular Activities section */
+.extracurricular-activities{
+    margin-top: 100px;
+}
+.extracurricular-activities .activities-item{
+    height: 230px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 2px rgba(0, 0, 0, 1);
+    position: relative;
+    margin-top: 20px;
+}
+.extracurricular-activities .activities-item h3{
+    margin-top: 15px;
+}
+.extracurricular-activities .activities-item i{
+    position: absolute;
+    top: -20px;
+    left: 30px;
+    height: 40px;
+    width: 40px;
+    background-color: var(--secondary-color);
+    border: black 1px solid;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 7px;
+}
+@media only screen and (max-width: 768px){
+    .extracurricular-activities .main-p{
+        width: 100% !important;
+    } 
+}
+/* end Extracurricular Activities section */
+
+/* start events and celebrations section */
+.events-celebrations .events-celebrations-item{
+    height: 400px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 2px rgba(0, 0, 0, 1);
+    overflow: hidden;
+    position: relative;
+}
+.events-celebrations .events-celebrations-item .rectangle{
+    position: absolute;
+    top: 28%;
+    transform: translateY(-50%);
+    height: 80px;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+}
+.events-celebrations .events-celebrations-item .item{
+    z-index: 1;
+}
+@media only screen and (max-width: 768px){
+    .events-celebrations .events-celebrations-item{
+        height: 420px;
+    }
+}
+/* end events and celebrations section */
+
+/* start student support section */
+
+.student-support .support-item{
+    height: 200px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 2px rgba(0, 0, 0, 1);
+    position: relative;
+}
+.student-support .support-item i{
+    position: absolute;
+    top: -20px;
+    left: 30px;
+    height: 40px;
+    width: 40px;
+    background-color: var(--secondary-color);
+    border: black 1px solid;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 7px;
+}
+.student-support .support-item h3{
+    font-size: 16px;
+}
+@media only screen and (max-width: 992px){
+    .student-support .main-p{
+        width: 100%;
+    }
+    .student-support .support-item{
+        justify-content: center;
+    }
+}
+@media only screen and (min-width: 1200px){
+    .student-support .support-item h3{
+        font-size: 20px;
+    }
+
+    
+}
+
+/* end student support section */

@@ -1,0 +1,127 @@
+/* start admissions welcome message */
+.admissions-welcome-message img{
+    height: 95px;
+    width: 95px;
+}
+.admissions-welcome-message .container{
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 5px 5px 2px rgba(0, 0, 0, 1);
+}
+@media only screen and (max-width: 768px){
+    .admissions-welcome-message .container{
+        text-align: center;
+    }
+    .admissions-welcome-message h2{
+        font-size: 20px;
+        margin-bottom: 10px;
+        margin-top: 10px;
+    }
+}
+/* end admissions welcome message */
+
+/* start admission process section */
+.admission-process .admission-process-item{
+    height: 230px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 2px rgba(0, 0, 0, 1);
+    position: relative;
+    margin-top: 70px;
+}
+.admission-process .admission-process-item .number{
+    position: absolute;
+    top: -92px;
+    left: 0px;
+    height: 50px;
+    width: 50px;
+    border-radius: 5px;
+    box-shadow: 3px 3px 2px rgba(0, 0, 0, 1);
+}
+.admission-process .admission-process-item .line{
+    position: absolute;
+    top: -50px;
+    left: 0;
+    width: 50px;
+    height: 50px;
+}
+.admission-process .admission-process-item img{
+    height: 100%;
+    width: 100%;
+}
+.admission-process .admission-process-item h3{
+    font-size: 16px;
+}
+@media only screen and (max-width: 992px){
+    .admission-process .admission-process-item .number{
+        left: 50%;
+        transform: translateX(-50%);
+    }
+    .admission-process .admission-process-item .line{
+        left: 50%;
+        transform: translateX(-50%);
+    }
+    .admission-process .admission-process-item{
+        justify-content: center;
+    }
+}
+@media only screen and (min-width: 1200px){
+    .admission-process .admission-process-item h3{
+        font-size: 20px;
+    }
+}
+/* end admission process section */
+
+/* start fee structure process section */
+.fee-structure .table{
+    border-radius: 10px;
+    box-shadow: 5px 5px 2px rgba(0, 0, 0, 1);
+    padding: 10px;
+}
+.fee-structure .table thead{
+    display: block;
+    border-radius: 10px;
+    overflow: hidden;
+    margin-bottom: 20px;
+}
+.fee-structure .table tbody{
+    display: block;
+    border-radius: 10px;
+    overflow: hidden;
+    margin-bottom: 20px;
+}
+.fee-structure .table thead tr{
+    display: table;
+    width: 100%;
+    table-layout: fixed;
+    background-color: #FFEFE5;
+    border-bottom-width:0px;
+}
+.fee-structure .table tbody tr{
+    display: table;
+    width: 100%;
+    table-layout: fixed;
+}
+.fee-structure .table tbody .last{
+    border-bottom-width:0px;
+}
+th,td{
+    font-size: 20px;
+    text-align: center;
+    height: 60px;
+    color: black;
+    border-left: 1px solid black;
+}
+tr .first{
+    border-left-width: 0px;
+}
+@media only screen and (max-width: 992px){
+    th,td{
+        font-size: 9px;
+    }
+}
+@media only screen and (min-width: 992px){
+    .fee-structure .table{
+        padding: 60px;
+    }
+}
+/* end fee structure process section */

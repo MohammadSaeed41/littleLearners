@@ -1,0 +1,77 @@
+/* start contact welcome message */
+.contact-welcome-message img{
+    height: 95px;
+    width: 95px;
+}
+.contact-welcome-message .container{
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 5px 5px 2px rgba(0, 0, 0, 1);
+}
+.contact-welcome-message .contact-item{
+    border-radius: 5px;
+}
+.contact-welcome-message i{
+    height: 30px;
+    width: 30px;
+    border-radius: 5px;
+}
+.contact-welcome-message span{
+    font-size: 10px;
+}
+@media only screen and (max-width: 768px){
+    .contact-welcome-message .container{
+        text-align: center;
+    }
+    .contact-welcome-message h2{
+        font-size: 20px;
+        margin-bottom: 10px;
+        margin-top: 10px;
+    }
+}
+/* end contact welcome message */
+
+/* start student information section */
+.student-info{
+    margin-top: 80px;
+    margin-bottom: 80px;
+}
+.student-info .info{
+    border-radius: 10px;
+    margin-bottom: 10px;
+    box-shadow: 5px 5px 2px rgba(0, 0, 0, 1);
+}
+.student-info .social-media{
+    top: -22px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.student-info .social-media i{
+    top: 40px;
+    height: 40px;
+    width: 40px;
+    border-radius: 5px;
+    transition: all 0.7s;
+}
+.student-info .social-media i:hover{
+    background-color: #FF8D4D;
+    transform: rotate(360deg);
+}
+.student-info .info input{
+    border-radius: 5px;
+}
+.student-info .info select{
+    border-radius: 5px;
+}
+.student-info .info textarea{
+    border-radius: 5px;
+    resize: none;
+}
+.student-info .info .submit{
+    background-color: #FF8D4D;
+    transition: all 0.7s;
+}
+.student-info .info .submit:hover{
+    background-color: #e45909;
+}
+/* end student information section */
